@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* navbar */
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  background-color: white;
+}
+.navbar {
+  width: 100%;
+  padding: 12px 0px;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.48);
+}
+.navbar .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .brand {
+  display: flex;
+  align-items: end;
+  text-decoration: none;
+  color: #483fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  width: 250px;
+  outline: 1px;
+  padding: 10px 14px;
+  color: #483fff;
+  border-radius: 10px;
+  border-color: #483fff;
+}
+.navbar .navbar-nav {
+  list-style-type: none;
+  display: flex;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  color: #030000;
+  transition: 0.3s ease-in-out all;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #483fff;
+}
+.navbar .navbar-nav .nav-item .nav-link .fa-chevron-down {
+  transition: 0.3s ease-in-out all;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover .fa-chevron-down {
+  transform: rotate(180deg);
+}
+/* hero-banner */
+.hero-banner {
+  padding: 100px;
+  background-color: #ededed;
+  height: 100vh;
+}
+.hero-banner .row {
+  display: flex;
+}
+.hero-banner .row .col {
+  width: 50%;
+}
+.hero-banner .row .col h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(8, 1, 1);
+  margin-bottom: 20px;
+  font
+}
+.hero-banner .row .col p {
+  font-size: 16px;
+  color: #676767;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.hero-banner .row .col .btn .strock {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding: 12px 40px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #1115e9;
+  transition: 0.4 ease-in-out all;
+}
+.hero-banner .row .col .btn .strock:hover {
+  background-color: #0c04b1;
+}
+.hero-banner .row .d-flex-title {
+  display: flex;
+  align-items: center;
+}
+.hero-banner .row .d-flex-img {
+  display: flex;
+  justify-content: center;
+}
+.hero-banner .row .col img {
+  width: 80%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/type login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="login-section">
+      <div class="row">
+        <!-- Login Form Column -->
+        <div class="col left-col">
+          <h1>Login to your Account</h1>
+          <p>Welcome back! Select method to log in:</p>
+
+          <div class="social-login">
+            <button class="google-login">
+              <img src="../img/google logo.png" alt="Google logo" /> Google
+            </button>
+            <button class="facebook-login">
+              <img src="../img/fb log.png" alt="Facebook logo" />
+              Facebook
+            </button>
+          </div>
+
+          <p class="divider">or continue with email</p>
+
+          <form action="">
+            <div class="input-group">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="input-group">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="extra-options">
+              <label class="remember-me">
+                <input type="checkbox" name="remember" /> Remember me
+              </label>
+              <a href="forgot password.html" class="forgot-password"
+                >Forgot password?</a
+              >
+            </div>
+            <div class="login-button">
+              <a href="landing.html">Login</a>
+            </div>
+          </form>
+
+          <p class="signup-link">
+            Don't have an account?
+            <a href="create acount.html">Create an account</a>
+          </p>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col right-col">
+          <img
+            src="../img/Reset password-rafiki.png"
+            alt="Reset Password Illustration"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

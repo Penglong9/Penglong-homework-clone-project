@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.bg-white {
+  background-color: #fbfbfb;
+}
+.bg-blue {
+  background-color: #6272f2;
+}
+.create-account {
+  width: 100%;
+  height: 100vh;
+}
+.create-account .row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.create-account .row .col {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-account .row .col img {
+  width: 600px;
+}
+.create-account .row .col .title {
+  width: 600px;
+  position: relative;
+}
+.create-account .row .col .checkbox {
+  display: flex;
+  gap: 5px;
+}
+.create-account .row .col .title i {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: rgb(83, 83, 83);
+}
+.create-account .row .col .title h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-left: 50px;
+}
+.create-account .row .col .title p {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.create-account .row .col .title table {
+  width: 500px;
+  margin: auto;
+}
+.create-account .row .col .title table tr td {
+  padding: 10px 0px;
+  display: flex;
+}
+
+.create-account .row .col .title input {
+  width: 100%;
+  outline: 0;
+  padding: 20px 100px;
+  color: #565c66;
+  background-color: #cfd4fa;
+  border: 2px solid rgb(103, 103, 247);
+  border-radius: 10px;
+}
+.create-account .row .col .title .input-image {
+  display: flex;
+  gap: 10px;
+}
+.create-account .row .col .title button {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  outline: 0px;
+  font-weight: bold;
+  background-color: #6272f2;
+  color: #fbfbfb;
+}
